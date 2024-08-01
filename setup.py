@@ -12,17 +12,9 @@ setup(
     , keywords         = 'diffusers stable-diffusion embedding'
     , install_requires = [
         'torch'
-        , 'torchvision'
-        , 'torchaudio'
-        , 'sentencepiece'
-        , 'accelerate'
-        , 'peft'
         , 'transformers'
         , 'diffusers'
         , 'lark'
-        , 'protobuf'
-        , 'ipykernel'
-        , 'ipywidgets'
     ]
     , include_package_data=True
 )
